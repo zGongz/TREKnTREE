@@ -1,2 +1,0 @@
-# TREKnTREE
-fyp
