@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "version": ">= 18.8.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyYourActualKeyGoesHere...",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "trekntree",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:1234567890:android:abc123def456"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
